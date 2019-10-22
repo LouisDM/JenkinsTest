@@ -136,7 +136,7 @@ else
 
 #上传到Fir
 # 将XXX替换成自己的Fir平台的token
-fir login -T 04e1d4fa7279c7c827e4ab211d15a262
+fir login -T XXX
 fir publish $exportIpaPath/$scheme_name.ipa
 
 fi
